@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+
+.portfolio-section{
+    background-color: #13171C;
+    min-height: 89.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.portfolio-content{
+    margin: 0;
+}
+
+
+
+.texto{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Title-portfolio{
+    width: 58.6vh;
+    height: 19.2vh;
+    color: antiquewhite;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 96px;
+    display: flex;
+    flex-direction: column;
+    line-height: 96px;
+}
+span{
+    color: aqua;
+}
+
+.maletin{
+    width: 29.2vh;
+    height: 28.1vh;    
+    margin-left: 291px;
+    margin-top: 50px;
+    
+}
+
+.trabajos{
+    width: 100%;
+    height: 762px;
+    padding-top: 2rem;
+      background-color: #13171C;
+      background-image: url(doodle\ items.png);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+}
+
+
+.work-card {
+    width: 32.2vh;
+    height: 46.9vh;
+   background: #393E4680;
+    border-radius: 1rem;
+    padding:2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+
+.imagenwork{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titlework {
+    margin: 0;
+     color: #EEEEEE;
+ font-family: "Poppins";
+font-weight: 700;
+font-style: Bold;
+font-size: 33px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin: 1.5rem 2.5rem 1.5rem 2.5rem
+}
+
+.descriptionwork {
+    margin: 0;
+      color: #EEEEEE;
+  margin: 0 2.5rem 2.6rem 2.5rem;
+  text-align: center;
+  justify-content: center;
+font-family: "Poppins";
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+@media(max-width:768px){
+    .portfolio{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Title-portfolio{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .maletin{
+        justify-content: center;
+        margin: 0;
+    }
+
+
+
+    .trabajos{
+        width: auto;
+        padding: 0;
+        flex-direction: column;
+        height: 190.7vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .work-card{
+        margin-top: 35px;
+        margin-right: 0;
+    }
+}

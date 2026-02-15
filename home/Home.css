@@ -1,0 +1,358 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+
+main {
+  display: block;
+  width: 100%;
+}
+
+.bienvenidossoyivan{
+    background-color: #13171C;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.bienvenida {
+    margin: 0;
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    font-family: "Poppins";
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 700;
+    font-size: clamp(2rem,5vw,4.5rem);
+    line-height: 1.2;
+}
+
+.bienvenida img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.presentacion{ 
+    background-color: #192130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+    padding: 4rem 2rem;
+    flex-wrap: wrap
+};
+
+.presentacion img{
+    max-width: 100%;
+    height: auto;
+    width: 40rem;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+h2{
+    margin: 0;
+}
+
+
+.texto h2{
+    color: #FFFFFF;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(2rem,4vw,4rem);
+    margin-bottom: 1.5rem;
+}
+
+.texto p{
+    color: #EEEEEEBF;
+    max-width: 30rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+}
+
+/* ===== PORTFOLIO ===== */
+.services-section {
+    padding-top: 2rem;
+  background-color: #13171C;
+  background-image: url(doodle\ items.png);
+}
+
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem 6rem;
+}
+
+.service-card {
+    background: #393E4680;
+    border-radius: 1rem;
+    padding:2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+
+.service-card__images {
+  height: 160px;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.6rem;
+}
+
+.service-card__images img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
+
+.service-card:nth-child(3) .service-card__images img {
+  height: 100%;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+
+/* CONTENIDO */
+.service-card h4 {
+    color: #EEEEEE;
+ font-family: "Poppins";
+font-weight: 700;
+font-style: Bold;
+font-size: 33px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin: 1.5rem 2.5rem 1.5rem 2.5rem
+
+}
+
+.service-card p {
+    color: #EEEEEE;
+  margin: 0 2.5rem 2.6rem 2.5rem;
+  text-align: center;
+  font-family: "Poppins";
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
+h3.Titulo-de-seccion{
+    color: #EEEEEE;
+    font-family: "Poppins";
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 90px 0 82px;
+}
+
+span{
+    color: #00ADB5;
+    margin-left: 25px;
+
+}
+
+.formulario-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #13171C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.formulario-container{
+    
+    min-height: 100vh;
+    background-color: #13171C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.formulario-campos{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.escribime{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    height: 460px;
+    margin-right: 90px;
+}
+
+.nombre-email-cont{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+
+
+.nombre,
+.email{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px ;
+    width: 288px;
+    margin-left: 40 px;
+    flex: 1 1 250px;
+}
+
+.nombre-campo,
+.email-campo {
+   background-color: #393E4680;
+   width: 28.8vh;
+   height: 5.9vh;
+   border-radius: 1rem;
+   font-size:18px ;
+   color: #EEEEEE80;
+}
+
+.mensaje{
+    width: 580px;
+    font-family: "Poppins";
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+color: #FFFFFF;
+flex-direction: initial;
+margin-top: 30px;
+margin-bottom: 10px;
+
+}
+
+.textarea-campo{
+    background-color: #393E4680;
+    width: 600px;
+    height: 280px;
+    border-radius: 1rem;
+    margin-bottom: 24px;
+    font-size:18px ;
+    color: #EEEEEE80;
+
+
+}
+
+.boton-form{
+    background-color: #00ADB5;
+    width: 231px;
+    height: 55px;
+    border-radius: 24px;
+    font-family: "Poppins";
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+
+@media (max-width: 768px){
+
+    .formulario-campos{
+        flex-direction: column;
+    }
+     .nombre-email-cont{
+        flex-direction: column;
+    }
+
+    h3.Titulo-de-seccion{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .escribime{
+        font-size: 2.5rem;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .mensaje{
+        width: 288px;
+        
+        margin-top: 20px;
+    }
+
+    .textarea-campo{
+        width: 100%;
+    }
+
+}
+@media (max-width: 768px){
+
+    .bienvenida{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .presentacion{
+        margin: 0;
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

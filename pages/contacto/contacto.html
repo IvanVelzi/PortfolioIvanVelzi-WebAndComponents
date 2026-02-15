@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto IvanDev</title>
+    <link rel="stylesheet" href="/components/header.css">
+    <link rel="stylesheet" href="/components/footer.css">
+    <link rel="stylesheet" href="/pages/contacto/contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="header-container"> 
+        <div id="header"></div>
+    </div>
+
+    <div class="formulario-container">
+            <h1 class="escribime">
+                Escribime
+            </h1>
+            <form class="formulario-campos">
+                <div class="nombre-email-cont">
+                    <div class="contenedor-de-nombre"> 
+
+                        <label class="nombre" for="nombre">Nombre</label>
+                        <input class="nombre-campo" type="text" id="nombre" name="nombre" />
+                    </div>
+                    <div class="contenedor-de-email"> 
+
+                        <label class="email" for="email">Email</label>
+                        <input class="email-campo" type="email" name="email" id="email">
+                    </div>
+                    </div>
+                <label class="mensaje" for="mensaje">Mensaje</label>
+                <textarea class="textarea-campo" name="mensaje" id="mensaje" rows="5"></textarea>
+                <button type="submit" class="boton-form" >Enviar </button>
+            </form>
+        </div>
+
+        <div class="footer-container">
+            <div id="footer"></div>
+        </div>
+<script src="contacto.js" defer></script>
+</body>
+</html>

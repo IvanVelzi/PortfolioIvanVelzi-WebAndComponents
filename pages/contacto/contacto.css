@@ -1,0 +1,136 @@
+.formulario-container{
+    
+    min-height: 100vh;
+    background-color: #13171C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.formulario-campos{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.escribime{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    height: 460px;
+    margin-right: 90px;
+}
+
+.nombre-email-cont{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+
+
+.nombre,
+.email{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px ;
+    width: 288px;
+    margin-left: 40 px;
+    flex: 1 1 250px;
+}
+
+.nombre-campo,
+.email-campo {
+   background-color: #393E4680;
+   width: 28.8vh;
+   height: 5.9vh;
+   border-radius: 1rem;
+   font-size:18px ;
+   color: #EEEEEE80;
+}
+
+.mensaje{
+    width: 580px;
+    font-family: "Poppins";
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+color: #FFFFFF;
+flex-direction: initial;
+margin-top: 30px;
+margin-bottom: 10px;
+
+}
+
+.textarea-campo{
+    background-color: #393E4680;
+    width: 600px;
+    height: 280px;
+    border-radius: 1rem;
+    margin-bottom: 24px;
+    font-size:18px ;
+    color: #EEEEEE80;
+
+
+}
+
+.boton-form{
+    background-color: #00ADB5;
+    width: 231px;
+    height: 55px;
+    border-radius: 24px;
+    font-family: "Poppins";
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+
+@media (max-width: 768px){
+
+    .formulario-campos{
+        flex-direction: column;
+    }
+     .nombre-email-cont{
+        flex-direction: column;
+    }
+
+    h3.Titulo-de-seccion{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .escribime{
+        font-size: 2.5rem;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .mensaje{
+        width: 288px;
+        
+        margin-top: 20px;
+    }
+
+    .textarea-campo{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,359 @@
+  body{
+    margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.sitio-de-header .header {
+  width: 100%;
+  height: 121px;
+  background-color: #13171C;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 376px) {
+  .sitio-de-header .header {
+    font-size: 14px;
+    height: 114px;
+  }
+}
+
+
+.pages-external{
+    width: 327px;
+    height: 47px;
+    display: flex;
+    flex-direction: inline;
+   
+     font-family: "Poppins";
+}
+
+@media(max-width:600px){
+    .pages-external{
+        display: none;
+
+    }
+}
+
+.sitio-de-header .logo-header{
+     width: 75px;
+        height: 36px;
+        margin-top: 40px;
+        margin-left: 30px;
+}
+
+.sitio-de-header .portfolio{
+    color: white;
+    font-size: 18px;
+     text-decoration: none;
+    width: 166px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.sitio-de-header .servicios{
+    color: white;
+    font-size: 18px;
+     text-decoration: none;
+    width: 166px;
+    height: 47px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sitio-de-header .contacto{
+    color: white;
+    font-size: 18px;
+    width: 166px;
+    height: 47px;
+     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.sitio-de-header .menu-hamburguesa{ 
+    display: none;
+}
+
+.sitio-de-header .navegacion{
+    display: none;
+}
+
+
+@media(max-width:600px){
+
+    .sitio-de-header .menu-hamburguesa {
+        position: relative;
+        cursor: pointer;
+        margin: 10px;
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sitio-de-header .linea{
+        
+        width: 30px; 
+        height: 4px; 
+        background-color: white;
+        margin: 4px 0; 
+        border-radius: 5px; 
+    }
+    .sitio-de-header .icono{
+        flex-direction: column;
+         width: 40px;
+        height: 40px;
+        border: 4px white solid ;
+        font-size:40px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px
+    }
+    .sitio-de-header .navegacion {
+        flex-direction: column;
+        position:absolute;
+        background-color: black;
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        top: 110%;
+        right: -20%;
+
+        
+
+    }
+    .sitio-de-header .navegacion.active {
+        display: block;
+        
+    }
+    
+    .sitio-de-header .seccion-navegacion{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 42px;
+        line-height: 96px;
+        font-family:"Poppins";
+        font-weight: 500;
+    }
+
+
+    .sitio-de-header .logo-header{
+        width: 75px;
+        height: 36px;
+        margin-top: 40px;
+        margin-left: 30px;
+        justify-content: center;
+    }
+
+
+
+
+}
+.sitio-de-header .cerrar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+
+
+}
+
+.sitio-de-header .header{
+    width: 100%;
+    height: 121px;
+    background-color: #13171C;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media(max-width:376px){
+    .sitio-de-header .header{
+        font-size: 14px;
+        height: 114px;
+        
+    }
+}
+
+.sitio-de-header .pages-external{
+    width: 327px;
+    height: 47px;
+    display: flex;
+
+    margin-top: 37px;
+     font-family: "Poppins";
+}
+
+@media(max-width:600px){
+    .sitio-de-header .pages-external{
+        display: none;
+
+    }
+}
+
+.sitio-de-header .logo-header{
+     width: 80%;
+        height: 60%;
+        margin-top: 40px;
+        margin-left: 30px;
+}
+
+.sitio-de-header .portfolio{
+    color: white;
+    font-size: 18px;
+     text-decoration: none;
+    width: 166px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.sitio-de-header .servicios{
+    color: white;
+    font-size: 18px;
+     text-decoration: none;
+    width: 166px;
+    height: 47px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sitio-de-header .contacto{
+    color: white;
+    font-size: 18px;
+    width: 166px;
+    height: 47px;
+     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sitio-de-header .menu-hamburguesa{ 
+    display: none;
+}
+
+.sitio-de-header .navegacion{
+    display: none;
+}
+
+
+@media(max-width:768px){
+
+    .sitio-de-header .menu-hamburguesa {
+        position: relative;
+        cursor: pointer;
+        margin: 10px;
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sitio-de-header .linea{
+        
+        width: 30px; 
+        height: 4px; 
+        background-color: white;
+        margin: 4px 0; 
+        border-radius: 5px; 
+    }
+    .sitio-de-header .icono{
+        flex-direction: column;
+         width: 40px;
+        height: 40px;
+        border: 4px white solid ;
+        font-size:40px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px
+    }
+    .sitio-de-header .navegacion {
+        flex-direction: column;
+        position:absolute;
+        background-color: black;
+        width: 250px;
+        height: 300px;
+        text-align: center;
+        top: 110%;
+        right: -20%;
+
+        
+
+    }
+    .sitio-de-header .navegacion.active {
+        display: block;
+        
+    }
+    
+    .sitio-de-header .seccion-navegacion{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 42px;
+        line-height: 96px;
+        font-family:"Poppins";
+        font-weight: 500;
+    }
+
+
+    .sitio-de-header .logo-header{
+        width: 75px;
+        height: 36px;
+        margin-top: 40px;
+        margin-left: 30px;
+        justify-content: center;
+    }
+
+
+
+
+}
+.sitio-de-header .cerrar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+
+
+}
+
+
