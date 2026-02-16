@@ -16,7 +16,7 @@ fetch(url)
     const bienvenidaEntry = data.items.find(item => item.fields.soyIvan === 'Soy Ivan');
     if (bienvenidaEntry) {
       const title = bienvenidaEntry.fields.soyIvan;
-      const imageUrl = bienvenidaEntry.fields.cohete?.fields?.file?.url || '/cohete.png';
+      const imageUrl = bienvenidaEntry.fields.cohete?.fields?.file?.url || 'cohete.png';
       const bienvenidaHTML = `
         <div class="bienvenida">
           <img src="${imageUrl}" alt="${title}">
@@ -181,11 +181,11 @@ const loadComponent = async (id, htmlPath, jsPath) => {
 
 loadComponent(
   "header",
-  "/components/header.html",
-  "/components/header.js"
+  "components/header.html",
+  "components/header.js"
 );
 
 loadComponent(
   "footer",
-  "/components/footer.html"
+  "components/footer.html"
 );
