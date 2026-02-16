@@ -1,6 +1,3 @@
-const spaceId = 'f2hj6ibejbaj';
-const accessToken = 'Q9pjpmP1ad7nLBaPHKLm3KcXZJ0LgWiPum4IuDs73LY';
-
 const url = `https://cdn.contentful.com/spaces/f2hj6ibejbaj/environments/master/entries?access_token=Q9pjpmP1ad7nLBaPHKLm3KcXZJ0LgWiPum4IuDs73LY&include=10`;
 
 
