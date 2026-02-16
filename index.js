@@ -16,7 +16,7 @@ fetch(url)
     const bienvenidaEntry = data.items.find(item => item.fields.soyIvan === 'Soy Ivan');
     if (bienvenidaEntry) {
       const title = bienvenidaEntry.fields.soyIvan;
-      const imageUrl = bienvenidaEntry.fields.cohete?.fields?.file?.url || '/home/cohete.png';
+      const imageUrl = bienvenidaEntry.fields.cohete?.fields?.file?.url || '/cohete.png';
       const bienvenidaHTML = `
         <div class="bienvenida">
           <img src="${imageUrl}" alt="${title}">
@@ -33,7 +33,7 @@ fetch(url)
     if (presentacion) {
       const ivanAssetId = presentacion.fields.ivan?.sys?.id;
       const ivanAsset = data.includes?.Asset.find(asset => asset.sys.id === ivanAssetId);
-      const imageUrl = ivanAsset ? ivanAsset.fields.file.url : '/home/Mi Foto Ivan.png';
+      const imageUrl = ivanAsset ? ivanAsset.fields.file.url : '/Mi Foto Ivan.png';
       const descripcion = presentacion.fields.descripcion?.content?.[0]?.content?.[0]?.value || '';
       const presentacionHTML = `
         <div class="presentacion">
