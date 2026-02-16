@@ -126,4 +126,3 @@ async function loadComponent(id, file, scriptFile = 0) {
 
 loadComponent("header", "../../components/header.html", "../../components/header.js");
 loadComponent("footer", "../../components/footer.html");
-
