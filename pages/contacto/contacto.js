@@ -43,7 +43,7 @@ async function loadComponent(id, file, scriptFile = 0) {
   }
 }
 
-loadComponent("header", "/PortfolioIvanVelzi-WebAndComponents/components/header.html", "/PortfolioIvanVelzi-WebAndComponents/components/header.js");
+loadComponent("header", "components/header.html", "components/header.js");
 
-loadComponent("footer", "/PortfolioIvanVelzi-WebAndComponents/components/footer.html");
+loadComponent("footer", "components/footer.html");
 
